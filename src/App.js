@@ -39,7 +39,7 @@ class App extends React.Component {
                     Promjena godina
                 </button>
                 {users.map((user, i) => (
-                    <div key={i}>
+                    <div>
                         <input
                             type="text"
                             value={user.name}
